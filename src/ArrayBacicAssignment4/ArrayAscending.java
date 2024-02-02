@@ -1,4 +1,4 @@
-
+package ArrayBacicAssignment4;
 
 import java.util.Scanner;
 

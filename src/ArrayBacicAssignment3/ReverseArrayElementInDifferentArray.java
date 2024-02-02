@@ -1,4 +1,4 @@
-//package ArrayBacicAssignment3;
+package ArrayBacicAssignment3;
 
 public class ReverseArrayElementInDifferentArray
 {

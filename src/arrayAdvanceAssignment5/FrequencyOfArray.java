@@ -6,7 +6,7 @@ public class FrequencyOfArray
 {
 public static void main(String[] args)
 {
-  System.out.println("W.A.P to count the frequency of each element in array.");
+  System.out.println("Q1)W.A.P to count the frequency of each element in array.");
 	  int arr[]= {2,2,3,4,3,4,2};
 
   FrequencyOfArray ob=new FrequencyOfArray();

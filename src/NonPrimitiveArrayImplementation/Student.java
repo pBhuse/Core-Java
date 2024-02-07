@@ -3,8 +3,8 @@ package NonPrimitiveArrayImplementation;
 public class Student 
 {
 
-	int rollNo;// field 
-	String name;//field
+	int rollNo;// variable 
+	String name;//variable
 }
 	
 

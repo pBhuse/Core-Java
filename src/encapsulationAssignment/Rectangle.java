@@ -19,11 +19,11 @@ public class Rectangle
 	public void setBreadth(int breadth) {
 		this.Breadth = breadth;
 	}
-	public Rectangle(int lth,int bth)
+	public Rectangle(int Length,int Breadth)
 	{
 		
-		Length=lth;
-		Breadth=bth;
+		this.Length=Length;
+		this.Breadth=Breadth;
 	   int Area=Length*Breadth;
 	   System.out.println("Area: " +Area); 
 

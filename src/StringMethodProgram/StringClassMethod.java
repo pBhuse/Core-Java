@@ -39,7 +39,7 @@ public static void main(String[] args)
     System.out.println(q);
     System.out.println();
     System.out.println("7.length()");
-    String g="box is heavy ";
+    String g="box is heavy";
     System.out.println("Given String : "+g);
     int w=g.length();
     System.out.println("Length of String :"+w);
@@ -110,7 +110,7 @@ public static void main(String[] args)
    }
      System.out.println();
      System.out.println("12.startWith()");
-     String str6="This is Start String class Method";
+     String str6="This is String class Method";
      String str7="This";
      System.out.println("First String :"+str6);
      System.out.println("Second String :"+str7);
@@ -147,7 +147,47 @@ public static void main(String[] args)
      System.out.println("Given String"+str9);
      char ch=str9.charAt(3);
      System.out.println(ch);
-     
+     System.out.println();
+     System.out.println("15.indexOf()");
+     String str10="Java is a object oriented programming language. java is a platform independent.";
+     int i=str10.indexOf("is");
+     if(i<0)
+     {
+    	 System.out.println("substring not found");
+     }
+     else
+     {
+    	 System.out.println("substring found at ="+i);
+     }
+
+     System.out.println();
+     System.out.println("16.lastIndexOf()");
+
+     int j=str10.lastIndexOf("is");
+     if(j<0)
+     {
+    	 System.out.println("substring not found");
+     }
+     else
+     {
+    	 System.out.println("substring found at ="+j);
+     }
+      System.out.println();
+    System.out.println("17.getChars()"); 
+    String  str11="java is robust language";
+    char[]ar=new char[str11.length()];
+    str11.getChars(5, 15, ar, 0);
+    for (char c : ar)
+    {
+		System.out.print(c);
+	}
+    System.out.println();
+    System.out.println("18.replace()");
+    String str12="This is method";
+    String replaceString=str12.replace("method", "function");
+    System.out.println(replaceString);
+    
+    
 }
 	
 	

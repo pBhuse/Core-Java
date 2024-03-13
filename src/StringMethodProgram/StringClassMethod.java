@@ -186,8 +186,26 @@ public static void main(String[] args)
     String str12="This is method";
     String replaceString=str12.replace("method", "function");
     System.out.println(replaceString);
+    System.out.println();
+    System.out.println("19.toString()");
+    Integer num=15;
+    String num1=num.toString();
+    System.out.println(num1+" : Its data type is "+num1.getClass().getSimpleName());//its return type of value.
+    System.out.println();
+    System.out.println("20.valueOf()");
+    int value=30;  
+    String s1=String.valueOf(value);  //it convert different data type value into string
+    System.out.println(s1+10);
+    System.out.println();
+    System.out.println("21.includes()");
+    String st=new String("hello, This is string class methods");
+   boolean b11= st.contains("is");
+    System.out.println(b11);
+    System.out.println();
     
-    
+
+
+
 }
 	
 	

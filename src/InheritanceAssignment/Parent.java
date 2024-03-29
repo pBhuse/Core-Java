@@ -15,8 +15,14 @@ public void setName(String name) {
 public int getAge() {
 	return Age;
 }
-public void setAge(int age) {
-	Age = age;
+public void setAge(int age) 
+{
+	if(age>0)
+	{
+	this.Age = age;
+	}
+	age=0;
+	System.out.println("Invalid Input");
 }
 public String getOccupation() {
 	return Occupation;

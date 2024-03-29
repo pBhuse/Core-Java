@@ -2,9 +2,6 @@ package javaOverloadedMethod;
 
 public class Overloadedmethods 
 {
-
-	
-	
 	public static void main(String[] args) 
 	{
 		//1. println() : It is an overloaded method of the printStream class.

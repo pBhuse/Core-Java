@@ -14,7 +14,6 @@ public class HashSetToArray {
      hs.add(40);
      hs.add(50);
      System.out.println("Set Elements are"+hs);
-     //int[]arr=new int[hs.size()];
      Integer[] intArray= hs.toArray(new Integer[hs.size()]);
      hs.toArray(intArray);
      System.out.println("Array Elements are :");

@@ -13,11 +13,11 @@ System.out.println("5] Write a Java program to get the first and last elements i
 	ts.add("Reshma");
 	ts.add("Sanmesh");
 	System.out.println("Tree Set Elements :"+ts);
-	// Find first element of the tree set
+	// Find smallest/first element of the tree set
     Object first_element =  ts.first();
 
 	System.out.println("First Element  :"+first_element);
-	// Find last element of the tree set
+	// Find largest/last element of the tree set
 
 	Object last_element=ts.last();
 	System.out.println("Last Element :"+last_element);
